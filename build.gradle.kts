@@ -17,13 +17,13 @@ dependencies {
 }
 
 application {  // ✅ To‘g‘ri ishlatish
-    mainClass.set("org.example.MainKt")
+    mainClass.set("org.example.HomeKt")
 
 }
 
 tasks.jar {
     manifest {
-        attributes["Main-Class"] = "org.example.MainKt"
+        attributes["Main-Class"] = "org.example.HomeKt"
     }
 }
 
